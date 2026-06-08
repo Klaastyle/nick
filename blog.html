@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Nick Southey</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://nicksouthey.com/blog.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .blog-hero { background: var(--sand); padding: 80px 0 60px; border-bottom: 1px solid var(--sand-dark); }
+  .blog-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.5rem,5vw,4rem); color: var(--charcoal); margin-bottom: 12px; }
+  .blog-hero p { max-width: 540px; }
+  .blog-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 36px; padding: 72px 0; }
+  .post-card { border-top: 2px solid var(--sand-dark); padding-top: 24px; }
+  .post-date { font-size: .7rem; letter-spacing: 2px; text-transform: uppercase; color: var(--mid-grey); margin-bottom: 12px; }
+  .post-card h2 { font-size: 1.35rem; margin-bottom: 12px; line-height: 1.3; }
+  .post-card h2 a { color: var(--charcoal); transition: color .2s; }
+  .post-card h2 a:hover { color: var(--accent); }
+  .post-card p { font-size: .88rem; }
+  .read-more { font-size: .75rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); font-weight: 500; }
+  .back-link { display: inline-block; margin-bottom: 32px; font-size: .78rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--mid-grey); }
+  .back-link:hover { color: var(--accent); }
+  @media(max-width:768px){ .blog-grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a href="index.html" class="topbar-email">← Back to main site</a>
+</div>
+<header id="header">
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-name">Nick Southey</span>
+        <span class="logo-tag">Translator & proofreader</span>
+      </a>
+    </div>
+  </nav>
+</header>
+<section class="blog-hero">
+  <div class="container">
+    <p class="section-label">Insights & articles</p>
+    <h1>Blog</h1>
+    <p>Thoughts on translation, language, and working across cultures.</p>
+  </div>
+</section>
+<div class="container">
+  <div class="blog-grid">
+    <article class="post-card">
+      <p class="post-date">28 December 2025</p>
+      <h2><a href="#">Translation for official bodies: rigour and documentary validity</a></h2>
+      <p>When translating documents for official use, precision is not optional — it is essential. Explore the key considerations for translating materials intended for government bodies and public institutions.</p>
+      <a href="#" class="read-more">Read more →</a>
+    </article>
+    <article class="post-card">
+      <p class="post-date">28 December 2025</p>
+      <h2><a href="#">The economics specialist who protects numbers and nuances</a></h2>
+      <p>Economics texts present unique challenges for translators. Numbers, percentages and technical terms must be rendered with absolute accuracy — but tone and register matter just as much.</p>
+      <a href="#" class="read-more">Read more →</a>
+    </article>
+    <article class="post-card">
+      <p class="post-date">Coming soon</p>
+      <h2><a href="#">When to choose hybrid translation over full human translation</a></h2>
+      <p>Not every text requires the same approach. Understanding when hybrid translation adds value — and when it doesn't — can save time and budget without sacrificing quality.</p>
+      <a href="#" class="read-more">Read more →</a>
+    </article>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer-copy" style="padding:28px 0">
+    <div class="container">
+      <p>© 2026 Nick Southey · <a href="index.html" style="color:var(--accent-lt)">Back to main site</a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

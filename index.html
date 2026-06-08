@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick Southey — Translator & proofreader</title>
+<meta name="description" content="Freelance translator and proofreader of Spanish and Catalan into English. 15 years of experience in academic, business and editorial translation.">
+<link rel="canonical" href="https://nicksouthey.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="topbar-email"><a href="mailto:nicholas@nicksouthey.com">nicholas@nicksouthey.com</a></span>
+  <div class="lang-switcher">
+    <button onclick="setLang('en')" id="btn-en" class="lang-btn active">En</button>
+    <span class="lang-sep">·</span>
+    <button onclick="setLang('es')" id="btn-es" class="lang-btn">Es</button>
+    <span class="lang-sep">·</span>
+    <button onclick="setLang('ca')" id="btn-ca" class="lang-btn">Ca</button>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="header">
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-name">Nick Southey</span>
+        <span class="logo-tag" data-i18n="logo_tag">Translator & proofreader</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" data-i18n="nav_about">About me</a></li>
+        <li><a href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="#hybrid" data-i18n="nav_hybrid">Hybrid translation</a></li>
+        <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+        <li><a href="#testimonials" data-i18n="nav_testi">Testimonials</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button onclick="setLang('en')" id="nav-btn-en" class="lang-btn active">En</button>
+        <span class="lang-sep">·</span>
+        <button onclick="setLang('es')" id="nav-btn-es" class="lang-btn">Es</button>
+        <span class="lang-sep">·</span>
+        <button onclick="setLang('ca')" id="nav-btn-ca" class="lang-btn">Ca</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-img-wrap">
+    <img src="hero.png" alt="Translator workspace" class="hero-bg-img">
+    <div class="hero-img-overlay"></div>
+  </div>
+  <div class="hero-text-block">
+    <p class="hero-overline" data-i18n="hero_overline">Spanish, Catalan & English</p>
+    <h1 class="hero-name">Nick Southey</h1>
+    <p class="hero-role" data-i18n="hero_role">Translator & proofreader</p>
+    <a href="#contact" class="hero-cta" data-i18n="hero_cta">Request a quote</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="container about-grid">
+    <div class="about-img-col">
+      <img src="about.png" alt="Professional workspace" class="about-img">
+      <div class="about-credentials">
+        <div class="cred-item"><span class="cred-num">15+</span><span class="cred-label" data-i18n="cred1">Years of experience</span></div>
+        <div class="cred-item"><span class="cred-num">3</span><span class="cred-label" data-i18n="cred2">Languages</span></div>
+        <div class="cred-item"><span class="cred-num">APTIC</span><span class="cred-label" data-i18n="cred3">Member</span></div>
+      </div>
+    </div>
+    <div class="about-text-col">
+      <p class="section-label" data-i18n="about_label">About me</p>
+      <h2 data-i18n="about_h2">Bringing Spanish and Catalan texts to life in English</h2>
+      <p data-i18n="about_p1">Passionate about <strong>language, precision and style</strong>, I work with companies, universities, business schools and publishers to bring Spanish and Catalan texts to life in English.</p>
+      <p data-i18n="about_p2">Drawing on <strong>fifteen years of experience</strong> and a background in <strong>economics</strong>, I deliver translations that capture both the meaning and the tone of the original. A member of <strong>APTIC</strong>, I hold a bachelor's degree in economics and sociology, a diploma in translation from the <strong>Chartered Institute of Linguists (CIOL, master's level 7)</strong> and a <strong>C1 qualification in Catalan</strong>.</p>
+      <p data-i18n="about_p3">My clients include <strong>leading politicians, publishers, multinationals, universities and business schools</strong>. I provide a reliable, efficient service and can work to <strong>short deadlines</strong>.</p>
+      <div class="about-tags">
+        <span class="tag" data-i18n="tag1">Economics</span>
+        <span class="tag" data-i18n="tag2">Academic</span>
+        <span class="tag" data-i18n="tag3">Editorial</span>
+        <span class="tag" data-i18n="tag4">Business</span>
+        <span class="tag" data-i18n="tag5">Legal</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="services-bg-wrap">
+    <img src="hero.png" alt="" class="services-bg-img" aria-hidden="true">
+    <div class="services-bg-overlay"></div>
+  </div>
+  <div class="container services-inner">
+    <p class="section-label light" data-i18n="serv_label">What I offer</p>
+    <h2 class="light-h2" data-i18n="serv_h2">My services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-number">01</div>
+        <h3 data-i18n="s1_title">Full translation</h3>
+        <p data-i18n="s1_desc">Some texts demand the <strong>full attention of a human translator</strong>, focusing on the nuance of tone, the rhythm of a sentence, and the choice of just the right wording. My full translation service is designed for projects in which <strong>accuracy, sensitivity and style</strong> matter too much to leave to AI.</p>
+        <ul>
+          <li data-i18n="s1_l1">Academic papers</li>
+          <li data-i18n="s1_l2">Books and editorial content</li>
+          <li data-i18n="s1_l3">Corporate reports</li>
+          <li data-i18n="s1_l4">Political texts</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-number">02</div>
+        <h3 data-i18n="s2_title">Hybrid translation</h3>
+        <p data-i18n="s2_desc">For some projects, <strong>efficiency and quality can go hand in hand</strong>. My hybrid translation service combines the speed of AI tools with <strong>careful human editing and stylistic refinement</strong>. This approach is ideal for clear, well-structured texts where <strong>precision is vital</strong> but the tone is straightforward.</p>
+        <ul>
+          <li data-i18n="s2_l1">Technical documentation</li>
+          <li data-i18n="s2_l2">Internal communications</li>
+          <li data-i18n="s2_l3">Product descriptions</li>
+          <li data-i18n="s2_l4">Support articles</li>
+        </ul>
+      </div>
+      <div class="service-card">
+        <div class="service-number">03</div>
+        <h3 data-i18n="s3_title">Proofreading</h3>
+        <p data-i18n="s3_desc">Even the strongest text benefits from a <strong>final, attentive read</strong>. My proofreading service ensures your English writing is <strong>clear, consistent and polished</strong> — free from mistakes in grammar, style or register. Whether it is an academic paper, a report or marketing material, I fine-tune the language so your ideas come across with <strong>confidence and precision</strong>.</p>
+        <ul>
+          <li data-i18n="s3_l1">Academic papers</li>
+          <li data-i18n="s3_l2">Marketing materials</li>
+          <li data-i18n="s3_l3">Website content</li>
+          <li data-i18n="s3_l4">Reports and presentations</li>
+        </ul>
+      </div>
+    </div>
+    <div class="services-cta">
+      <a href="#contact" class="btn-warm" data-i18n="serv_cta">Request a quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- HYBRID TRANSLATION -->
+<section class="hybrid section" id="hybrid">
+  <div class="container hybrid-grid">
+    <div class="hybrid-text">
+      <p class="section-label" data-i18n="hyb_label">Technology meets expertise</p>
+      <h2 data-i18n="hyb_h2">Hybrid translation</h2>
+      <p data-i18n="hyb_p1">Hybrid translation combines the <strong>speed and efficiency of machine translation</strong> with the <strong>accuracy and nuance of human post-editing</strong>. In this process, content is first translated using advanced machine translation technology, then reviewed and refined by a professional linguist to ensure <strong>clarity, context and cultural relevance</strong>.</p>
+      <p data-i18n="hyb_p2">I use AI tools selectively, when they genuinely add value, but <strong>every translation I deliver is reviewed, refined and rewritten where needed</strong> to ensure it reads naturally and conveys your message accurately. The result is a text <strong>you can publish with confidence</strong>.</p>
+      <a href="#contact" class="btn-outline-warm" data-i18n="hyb_cta">Ask about hybrid translation</a>
+    </div>
+    <div class="hybrid-benefits">
+      <div class="benefit">
+        <span class="benefit-icon">⏱</span>
+        <div>
+          <h4 data-i18n="b1_t">Faster turnaround</h4>
+          <p data-i18n="b1_p">Machine translation accelerates the process, making it ideal for large volumes or tight deadlines.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">✦</span>
+        <div>
+          <h4 data-i18n="b2_t">Consistent quality</h4>
+          <p data-i18n="b2_p">Human editors ensure tone, terminology and meaning are preserved across all content.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">◇</span>
+        <div>
+          <h4 data-i18n="b3_t">Cost-effective</h4>
+          <p data-i18n="b3_p">Reduces translation costs while maintaining quality through targeted human editing.</p>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">∞</span>
+        <div>
+          <h4 data-i18n="b4_t">Scalable</h4>
+          <p data-i18n="b4_p">Handles ongoing or high-frequency translation needs without compromising accuracy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section section" id="faq">
+  <div class="container faq-wrap">
+    <p class="section-label center" data-i18n="faq_label">Common questions</p>
+    <h2 class="center" data-i18n="faq_h2">FAQ</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span data-i18n="faq1_q">What is hybrid translation?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <p data-i18n="faq1_a">Hybrid translation is a <strong>two-step process</strong> where machine translation generates a first draft, which is then <strong>reviewed and refined by a professional human translator</strong>. This approach combines the efficiency of automation with the precision of human language expertise.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span data-i18n="faq2_q">How is hybrid translation different from traditional translation?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <p data-i18n="faq2_a">Traditional translation is entirely human-driven, often slower and more costly. Hybrid translation speeds up the process and lowers costs by using machine translation first, followed by human post-editing to ensure quality and accuracy.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span data-i18n="faq3_q">Why not just use machine translation?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <p data-i18n="faq3_a">Machine translation still struggles with <strong>tone, nuance and context</strong> — especially in academic or editorial writing. I use AI tools selectively, when they genuinely add value, but <strong>every translation I deliver is reviewed, refined and rewritten where needed</strong>.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span data-i18n="faq4_q">Can you work to tight deadlines?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <p data-i18n="faq4_a">Yes. I provide a reliable, efficient service and can work to short deadlines. Please mention your deadline when requesting a quote so I can confirm availability.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span data-i18n="faq5_q">What types of content are best suited for hybrid translation?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <p data-i18n="faq5_a">Hybrid translation works well for technical documentation, product descriptions, user manuals, support articles, e-commerce content and internal business communications.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi-section section" id="testimonials">
+  <div class="container">
+    <p class="section-label center" data-i18n="testi_label">What clients say</p>
+    <h2 class="center" data-i18n="testi_h2">Testimonials</h2>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p class="testi-quote">"</p>
+        <p class="testi-text" data-i18n="t1_text">Nick Southey delivered an outstanding translation of our annual report — precise, professional and delivered ahead of schedule. We will not hesitate to work with him again.</p>
+        <div class="testi-author">
+          <div class="testi-initials">MR</div>
+          <div>
+            <strong data-i18n="t1_name">María Rodríguez</strong>
+            <span data-i18n="t1_role">Communications director, multinational corporation</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card testi-featured">
+        <p class="testi-quote">"</p>
+        <p class="testi-text" data-i18n="t2_text">The translation of my academic paper was impeccable. Nick Southey understood the nuances of the economic terminology and produced an English version that read perfectly for an international journal.</p>
+        <div class="testi-author">
+          <div class="testi-initials">JP</div>
+          <div>
+            <strong data-i18n="t2_name">Dr Jordi Puig</strong>
+            <span data-i18n="t2_role">Professor of economics, University of Barcelona</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">"</p>
+        <p class="testi-text" data-i18n="t3_text">We have used Nick Southey for several publishing projects. His attention to detail and understanding of our editorial style has made him an invaluable partner for our English-language titles.</p>
+        <div class="testi-author">
+          <div class="testi-initials">AS</div>
+          <div>
+            <strong data-i18n="t3_name">Anna Soler</strong>
+            <span data-i18n="t3_role">Editorial director, publishing house</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <p class="section-label" data-i18n="contact_label">Get in touch</p>
+      <h2 data-i18n="contact_h2">Let's work together</h2>
+      <p data-i18n="contact_p">Ready to start a project? Send me a message and I will get back to you as soon as possible. I work to short deadlines and provide a reliable, efficient service.</p>
+      <div class="contact-details">
+        <p><a href="mailto:nicholas@nicksouthey.com">nicholas@nicksouthey.com</a></p>
+        <p data-i18n="contact_loc">Barcelona, Catalonia, Spain</p>
+        <p data-i18n="contact_cred">APTIC member · CIOL diploma · 15+ years of experience</p>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="submitContact(event)">
+      <div class="field-group">
+        <label for="cn" data-i18n="form_name">Full name</label>
+        <input type="text" id="cn" required>
+      </div>
+      <div class="field-group">
+        <label for="ce" data-i18n="form_email">Email address</label>
+        <input type="email" id="ce" required>
+      </div>
+      <div class="field-group">
+        <label for="cs" data-i18n="form_service">Service</label>
+        <select id="cs">
+          <option value="" data-i18n="form_opt">— Please select —</option>
+          <option value="full" data-i18n="s1_title">Full translation</option>
+          <option value="hybrid" data-i18n="s2_title">Hybrid translation</option>
+          <option value="proof" data-i18n="s3_title">Proofreading</option>
+        </select>
+      </div>
+      <div class="field-group full">
+        <label for="cm" data-i18n="form_msg">Message</label>
+        <textarea id="cm" rows="5"></textarea>
+      </div>
+      <button type="submit" class="btn-warm" data-i18n="form_btn">Send message</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="footer-name">Nick Southey</span>
+      <span class="footer-tagline" data-i18n="logo_tag">Translator & proofreader</span>
+    </div>
+    <div class="footer-nav">
+      <a href="#about" data-i18n="nav_about">About me</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#hybrid" data-i18n="nav_hybrid">Hybrid translation</a>
+      <a href="#testimonials" data-i18n="nav_testi">Testimonials</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </div>
+    <div class="footer-legal">
+      <a href="#" data-i18n="foot_privacy">Privacy policy</a>
+      <a href="#" data-i18n="foot_legal">Legal notice</a>
+      <a href="blog.html" data-i18n="foot_blog">Blog</a>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <div class="container">
+      <p>© 2026 Nick Southey · <span data-i18n="foot_member">APTIC member · CIOL diploma</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
