@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" role="img" aria-labelledby="title desc">
+  <title id="title">Mejora Kit Digital</title>
+  <desc id="desc">Logotipo Mejora Kit Digital</desc>
+  <rect width="360" height="140" fill="none"/>
+  <g fill="#ffffff">
+    <text x="20" y="78" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Mejora</text>
+    <text x="22" y="110" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400">Kit Digital</text>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-linecap="square" stroke-width="6">
+    <path d="M185 26h92v88h-92z"/>
+    <path d="M312 18 178 124"/>
+    <path d="M178 124h48"/>
+    <path d="M178 124v-48"/>
+  </g>
+</svg>
