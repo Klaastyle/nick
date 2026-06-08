@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Nick Southey</title>
+<meta name="description" content="Contact Nick Southey for Spanish and Catalan into English translation, proofreading and hybrid translation projects.">
+<link rel="canonical" href="https://nicksouthey.com/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span class="topbar-email"><a href="mailto:nicholas@nicksouthey.com">nicholas@nicksouthey.com</a></span>
+  <div class="lang-switcher">
+    <button onclick="setLang('en')" id="btn-en" class="lang-btn active">En</button>
+    <span class="lang-sep">·</span>
+    <button onclick="setLang('es')" id="btn-es" class="lang-btn">Es</button>
+    <span class="lang-sep">·</span>
+    <button onclick="setLang('ca')" id="btn-ca" class="lang-btn">Ca</button>
+  </div>
+</div>
+
+<header id="header">
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-name">Nick Southey</span>
+        <span class="logo-tag" data-i18n="logo_tag">Translator & proofreader</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html#about" data-i18n="nav_about">About me</a></li>
+        <li><a href="index.html#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="index.html#hybrid" data-i18n="nav_hybrid">Hybrid translation</a></li>
+        <li><a href="index.html#faq" data-i18n="nav_faq">FAQ</a></li>
+        <li><a href="index.html#testimonials" data-i18n="nav_testi">Testimonials</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button onclick="setLang('en')" id="nav-btn-en" class="lang-btn active">En</button>
+        <span class="lang-sep">·</span>
+        <button onclick="setLang('es')" id="nav-btn-es" class="lang-btn">Es</button>
+        <span class="lang-sep">·</span>
+        <button onclick="setLang('ca')" id="nav-btn-ca" class="lang-btn">Ca</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero contact-page-hero">
+    <div class="container">
+      <p class="section-label" data-i18n="contact_label">Get in touch</p>
+      <h1 data-i18n="contact_h2">Let's work together</h1>
+      <p data-i18n="contact_p">Ready to start a project? Send me a message and I will get back to you as soon as possible. I work to short deadlines and provide a reliable, efficient service.</p>
+    </div>
+  </section>
+
+  <section class="contact-section section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-label" data-i18n="nav_contact">Contact</p>
+        <h2>Nick Southey</h2>
+        <p data-i18n="about_h2">Bringing Spanish and Catalan texts to life in English</p>
+        <div class="contact-details">
+          <p><a href="mailto:nicholas@nicksouthey.com">nicholas@nicksouthey.com</a></p>
+          <p data-i18n="contact_loc">Barcelona, Catalonia, Spain</p>
+          <p data-i18n="contact_cred">APTIC member · CIOL diploma · 15+ years of experience</p>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="submitContact(event)">
+        <div class="field-group">
+          <label for="cn" data-i18n="form_name">Full name</label>
+          <input type="text" id="cn" required>
+        </div>
+        <div class="field-group">
+          <label for="ce" data-i18n="form_email">Email address</label>
+          <input type="email" id="ce" required>
+        </div>
+        <div class="field-group">
+          <label for="cs" data-i18n="form_service">Service</label>
+          <select id="cs">
+            <option value="" data-i18n="form_opt">— Please select —</option>
+            <option value="full" data-i18n="s1_title">Full translation</option>
+            <option value="hybrid" data-i18n="s2_title">Hybrid translation</option>
+            <option value="proof" data-i18n="s3_title">Proofreading</option>
+          </select>
+        </div>
+        <div class="field-group full">
+          <label for="cm" data-i18n="form_msg">Message</label>
+          <textarea id="cm" rows="7"></textarea>
+        </div>
+        <button type="submit" class="btn-warm" data-i18n="form_btn">Send message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="footer-name">Nick Southey</span>
+      <span class="footer-tagline" data-i18n="logo_tag">Translator & proofreader</span>
+    </div>
+    <div class="footer-nav">
+      <a href="index.html#about" data-i18n="nav_about">About me</a>
+      <a href="index.html#services" data-i18n="nav_services">Services</a>
+      <a href="index.html#hybrid" data-i18n="nav_hybrid">Hybrid translation</a>
+      <a href="index.html#testimonials" data-i18n="nav_testi">Testimonials</a>
+      <a href="contact.html" data-i18n="nav_contact">Contact</a>
+    </div>
+    <div class="footer-legal">
+      <a href="#" data-i18n="foot_privacy">Privacy policy</a>
+      <a href="#" data-i18n="foot_legal">Legal notice</a>
+      <a href="blog.html" data-i18n="foot_blog">Blog</a>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <div class="container">
+      <p>© 2026 Nick Southey · <span data-i18n="foot_member">APTIC member · CIOL diploma</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
